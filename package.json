@@ -1,7 +1,7 @@
 {
-  "name": "@chris.troutner/npm-lib-boilerplate-esm",
+  "name": "@chris.troutner/toy-blockchain",
   "version": "1.0.0",
-  "description": "A boilerplate for creating an npm library with Semantic Release, linting, and tests.",
+  "description": "A 'toy' blockchain, built to learn more about the fundamental logic behind blockchains. ",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,25 +14,16 @@
     "coverage:report": "c8 --reporter=html mocha test/unit/ --exit"
   },
   "keywords": [
-    "bitcoin",
-    "bitcoin cash",
-    "wallet",
-    "javascript",
-    "cryptocurrency",
-    "react",
-    "front end",
-    "client",
-    "apidoc",
-    "slp",
-    "tokens"
+    "blockchain",
+    "javascript"
   ],
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "apidoc": {
-    "title": "npm-lib-boilerplate-esm",
+    "title": "toy-blockchain",
     "url": "localhost:5000"
   },
-  "repository": "christroutner/npm-lib-boilerplate-esm",
+  "repository": "christroutner/toy-blockchain",
   "dependencies": {
     "@psf/bch-js": "4.20.21",
     "apidoc": "0.25.0"
@@ -58,7 +49,7 @@
     "publish": [
       {
         "path": "@semantic-release/npm",
-        "npmPublish": true
+        "npmPublish": false
       }
     ]
   },
